@@ -110,7 +110,7 @@ const simFile =
 	getName: name => name.slice(0, name.lastIndexOf(".")),
 	getExtension: name => name.slice(name.lastIndexOf(".") + 1),
 	replaceExtension: (name, replace) => name.slice(0, name.lastIndexOf(".")) + replace
-}
+};
 
 
 
